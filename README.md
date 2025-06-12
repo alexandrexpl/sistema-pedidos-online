@@ -6,40 +6,7 @@ Este projeto tem como objetivo aplicar, de forma incremental, os principais padr
 
 O projeto segue a estrutura padrão do Maven:
 
-
-sistema-pedidos-online/
-├── pom.xml
-├── README.md
-└── src/
-├── main/
-│   └── java/
-│       └── com/example/sistemapedidos/
-│           ├── Main.java
-│           ├── model/
-│           │   ├── produto/
-│           │   │   ├── Produto.java
-│           │   │   ├── ProdutoFisico.java
-│           │   │   └── ProdutoDigital.java
-│           │   ├── Cliente.java
-│           │   ├── Pedido.java
-│           │   └── ItemPedido.java
-│           ├── factory/
-│           │   └── ProdutoFactory.java
-│           ├── builder/
-│           │   └── PedidoBuilder.java
-│           └── singleton/
-│               └── ConfiguracaoSistema.java
-└── test/
-└── java/
-└── com/example/sistemapedidos/
-├── factory/
-│   └── ProdutoFactoryTest.java
-├── builder/
-│   └── PedidoBuilderTest.java
-└── singleton/
-└── ConfiguracaoSistemaTest.java
-
-
+sistema-pedidos-online/├── pom.xml├── README.md└── src/├── main/│   └── java/│       └── com/│           └── example/│               └── sistemapedidos/│                   ├── Main.java│                   ├── model/│                   │   ├── produto/│                   │   │   ├── Produto.java│                   │   │   ├── ProdutoFisico.java│                   │   │   └── ProdutoDigital.java│                   │   ├── Cliente.java│                   │   ├── Pedido.java│                   │   └── ItemPedido.java│                   ├── factory/│                   │   └── ProdutoFactory.java│                   ├── builder/│                   │   └── PedidoBuilder.java│                   └── singleton/│                       └── ConfiguracaoSistema.java└── test/└── java/└── com/└── example/└── sistemapedidos/├── factory/│   └── ProdutoFactoryTest.java├── builder/│   └── PedidoBuilderTest.java└── singleton/└── ConfiguracaoSistemaTest.java
 ## Padrões Criacionais Utilizados
 
 Nesta primeira entrega, foram implementados os seguintes padrões criacionais:
